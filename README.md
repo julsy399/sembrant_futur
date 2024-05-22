@@ -51,17 +51,32 @@ Aquest projecte consta d'una pàgina web dedicada a la investigació i promoció
 - Proporcionar una visió general dels diferents projectes d'investigació realitzats per l'equip.
 - Mostrar els objectius, metodologia i resultats de cada projecte.
 
+**Contingut:**
+**Projecte d'Investigació: "Sembrant Futur"**
+  - **Descripció:** L’objectiu principal del nostre projecte és investigar i comprendre a fons la producció agrícola a Albinyana amb l'objectiu de millorar la seva eficiència, sostenibilitat i resiliència. A través de la recerca i l'anàlisi de les pràctiques agrícoles locals, volem identificar oportunitats per a la millora i desenvolupar solucions pràctiques que beneficiïn tant als agricultors com al medi ambient.
+  - **Objectius:**
+    - Analitzar els principals cultius agrícoles de la zona.
+    - Avaluar l'impacte de les pràctiques agrícoles sobre el medi ambient.
+    - Investigar les necessitats dels agricultors locals.
+    - Desenvolupar recomanacions per millorar la sostenibilitat agrícola.
+  - **Metodologia:** Anàlisi de dades, entrevistes amb agricultors locals, recerca de camp.
+  - **Resultats:** S'han identificat tendències en la producció agrícola i recomanacions per millorar la sostenibilitat.
+
 ### Mapa (mapa.html)
 
 **Estructura:**
 - **Capçalera:** Inclou el logotip, el nom del projecte i un menú de navegació.
-- **Títol:** "MAPA".
-- **Contingut Principal:** Mapa interactiu que mostra les localitzacions d'interès a Albinyana relacionades amb els projectes de recerca.
-- **Peu de Pàgina:** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
+- **Títol:** "TIPOLOGIA DE CULTIUS".
+- **Contingut Principal:** Descripció del mapa interactiu que mostra les diferents àrees ocupades per cultius al municipi d'Albinyana, Catalunya.
+- **Funcionalitat:**
+    - Visualització d'un mapa interactiu amb polígons classificats segons els cultius herbacis, arboris o arbustius, i la combinació de cultius.
+    - Cliqueu a cada zona per observar l'àrea en hectàrees i la classificació corresponent dels cultius.
+    - El mapa es interactivo; al hacer clic en las diferentes zonas de colores, aparece una pestaña emergente con información sobre el tipo de cultivos y las hectáreas correspondientes.
+    - Proporciona una manera dinámica de explorar y comprender la distribución de los cultivos en el municipio.
 
-**Funcionalitat:**
-- Proporcionar una visualització geogràfica dels llocs d'investigació i altres localitzacions rellevants.
-- Interactivitat per explorar diferents llocs amb informació addicional.
+**Ús de QGIS i l'extensió qgis2web:**
+- El mapa ha estat creat utilitzant el programa QGIS juntament amb l'extensió qgis2web, que permet convertir projectes de QGIS en mapes web interactius.
+- Aquesta eina ofereix una manera eficient de visualitzar i compartir dades geoespacials a través de la web, facilitant la comprensió i l'anàlisi dels mapes per part dels usuaris.
 
 ### Contacte (contacte.html)
 
@@ -74,7 +89,7 @@ Aquest projecte consta d'una pàgina web dedicada a la investigació i promoció
 **Funcionalitat:**
 - Facilitar la comunicació entre els visitants del lloc web i l'equip d'investigació.
 - Formulari de contacte per enviar preguntes, suggeriments o sol·licituds de col·laboració.
-
+  
 ---
 
 ## Instruccions d'Ús
