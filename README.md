@@ -33,6 +33,8 @@ Per a la realització d'aquest projecte, he extret dades de diverses fonts fiabl
 5. [Contacte (contacte.html)](#contacte-contactehtml)
 
 ---
+## Estructura de la Web
+---
 
 ### Inici (index.html)
 
