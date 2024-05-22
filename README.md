@@ -107,7 +107,7 @@ Per a la realització d'aquest projecte, he extret dades de diverses fonts fiabl
 **Estructura:**
 - **Capçalera:** Inclou el logotip, el nom del projecte i un menú de navegació.
 - **Títol:** "CONTACTE".
-- **Contingut Principal:** Formulari de contacte per permetre als usuaris enviar missatges a l'equip d'investigació.
+- **Contingut Principal:** Formulari de contacte per permetre als usuaris enviar missatges a l'equip d'investigació. S'ha introduït un mapa de localització del municipi del google maps que permet obtenir direccions per arribar a Albinyana, també es útil per visualitzar la seva localització. 
 - **Peu de Pàgina:** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
 
 **Funcionalitat:**
