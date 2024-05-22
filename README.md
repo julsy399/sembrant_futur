@@ -4,6 +4,10 @@
 
 Aquest projecte consta d'una pàgina web dedicada a la investigació i promoció de la producció agrícola a Albinyana, Catalunya. La web està composta per cinc pàgines principals: `index.html`, `membres.html`, `projectes.html`, `mapa.html` i `contacte.html`. Cada pàgina té una funció específica i proporciona informació diversa als visitants.
 
+## Tema/motivació
+
+La meva motivació per aquest projecte neix de la meva profunda connexió amb Albinyana, el meu poble, i la seva comunitat agrícola. Vull contribuir a la preservació i promoció de les nostres tradicions agrícoles, alhora que ajudo a impulsar la innovació i la sostenibilitat en aquest sector tan vital per a nosaltres. Crec que aquesta pàgina web serà un pas important cap a aquesta visió, proporcionant les eines i els recursos necessaris per a la nostra comunitat.
+
 ## Índex de Continguts
 1. [Inici (index.html)](#inici-indexhtml)
 2. [Membres (membres.html)](#membres-membreshtml)
