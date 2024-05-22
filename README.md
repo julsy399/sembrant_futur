@@ -108,6 +108,25 @@ Per a la realització d'aquest projecte, he extret dades de diverses fonts fiabl
 **Funcionalitat:**
 - Facilitar la comunicació entre els visitants del lloc web i l'equip d'investigació.
 - Formulari de contacte per enviar preguntes, suggeriments o sol·licituds de col·laboració.
+
+## Disseny Responsive 
+
+La pàgina web dedicada a la investigació i promoció de la producció agrícola a Albinyana està dissenyada per ser totalment responsive, assegurant que la seva visualització i usabilitat siguin òptimes en qualsevol dispositiu, ja sigui un ordinador de sobretaula, una tauleta o un telèfon mòbil. Això s'aconsegueix mitjançant l'ús de CSS i etiquetes media queries que permeten adaptar el disseny i l'estil de la web en funció de la mida de la pantalla del dispositiu.
+
+**Media Query per a Mòbils (max-width: 767px)**:
+- Ajusta la mida del text dels títols dins de .containerTab p h2 a 24px per millorar la llegibilitat en pantalles petites.
+- Amplia l'amplada de .container i .containerTab al 95% per garantir que els continguts es mostrin correctament sense desbordar la pantalla.
+- Augmenta la mida del text del contenidor del lema (#contenidorSlogan) a 5vw, adaptant-lo a l'ample de la pantalla.
+- Disposa els elements del menú de navegació en una columna (nav ul) i ajusta la seva amplada (nav li) al 100%.
+- Ajusta la mida del text dins de les taules (.containerTab td, .containerTab th) a 18px per una millor visualització en dispositius mòbils.
+
+**Media Query per a Dispositius Més Grans (min-width: 768px)***:
+
+- Ajusta la mida del text del contenidor del lema (#contenidorSlogan) a 3vw, adaptant-lo a l'ample de la pantalla.
+- Evita que els elements principals (.contingutPrincipal) es trenquin en diferents línies, mantenint el disseny alineat.
+- Assigna espai igual als elements .info i .imatgeDreta amb flex: 1.
+- Ajusta la mida del text dins de les taules (.containerTab th, .containerTab td) a 12px per mantenir una aparença clara i neta en pantalles grans.
+
   
 ---
 
