@@ -132,7 +132,7 @@ La pàgina web dedicada a la investigació i promoció de la producció agrícol
 - Assigna espai igual als elements .info i .imatgeDreta amb flex: 1.
 - Ajusta la mida del text dins de les taules (.containerTab th, .containerTab td) a 12px per mantenir una aparença clara i neta en pantalles grans.
 
-  També s'ha utiitzat bootstrap per tal de facilitar la gestió de les mides de pantalla i l'adaptabilitat de la pàgina web a diversos dispositius.
+També s'ha utilitzat bootstrap per tal de facilitar la gestió de les mides de pantalla i l'adaptabilitat de la pàgina web a diversos dispositius.
 
 ---
 
