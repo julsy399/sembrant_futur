@@ -8,6 +8,8 @@ Aquest projecte consta d'una pàgina web dedicada a la investigació i promoció
 
 La meva motivació per aquest projecte neix de la meva profunda connexió amb Albinyana, el meu poble, i la seva comunitat agrícola. Vull contribuir a la preservació i promoció de les nostres tradicions agrícoles, alhora que ajudo a impulsar la innovació i la sostenibilitat en aquest sector tan vital per a nosaltres. Crec que aquesta pàgina web serà un pas important cap a aquesta visió, proporcionant les eines i els recursos necessaris per a la nostra comunitat.
 
+---
+
 ## Recerca de dades
 
 Per a la realització d'aquest projecte, he extret dades de diverses fonts fiables i rellevants:
@@ -22,7 +24,7 @@ Per a la realització d'aquest projecte, he extret dades de diverses fonts fiabl
     - Capa d'Usos del Sòl del Sistema d'Informació sobre Sòl No Urbanitzable (SISoe): Aquesta capa m'ha permès identificar i analitzar els diferents usos del sòl a Albinyana, crucial per planificar i gestionar la producció agrícola.
     - Capes de Límits Municipals del Centre Nacional d'Informació Geogràfica (CNIG): Aquestes capes m'han proporcionat informació precisa sobre els límits administratius del municipi, essencial per a la delimitació exacta de les àrees d'estudi.
     - Fons de Mapa de Google Maps: He utilitzat Google Maps per obtenir una base cartogràfica visualment clara i accessible, que complementa les altres dades geogràfiques amb informació actualitzada sobre infraestructures i terreny.
-
+--- 
 ## Índex de Continguts
 1. [Inici (index.html)](#inici-indexhtml)
 2. [Membres (membres.html)](#membres-membreshtml)
@@ -127,7 +129,48 @@ La pàgina web dedicada a la investigació i promoció de la producció agrícol
 - Assigna espai igual als elements .info i .imatgeDreta amb flex: 1.
 - Ajusta la mida del text dins de les taules (.containerTab th, .containerTab td) a 12px per mantenir una aparença clara i neta en pantalles grans.
 
-  
+---
+
+## Integració Cartografia
+
+**1. Preparació de les Dades al QGIS**
+- Importació de Dades: S'han importat les dades cartogràfiques al QGIS, incloent-hi la capa d'usos del sòl proporcionada pel Sistema d'Informació sobre Sòl No Urbanitzable (SISoe). Aquestes dades cartogràfiques s'han carregat al projecte del QGIS per permetre la seva manipulació i visualització.
+- Filtrat i Retall de Dades: S'ha aplicat un filtre a les dades per incloure només els cultius agrícoles d'interès, com el raïm, les olives i les garrofes. A més, s'ha retallat la capa d'usos del sòl al terme municipal d'Albinyana per limitar la visualització als límits de la localitat.
+
+**2. Classificació i Estil de les Dades**
+- Classificació de les Dades: S'han classificat les categories dels cultius agrícoles per poder-les representar de manera diferenciada al mapa. Això inclou la identificació de categories com ara cultius herbacis, arboris i arbustius, i conjunts de cultius.
+- Estil de les Dades: S'ha definit l'estil visual de les categories de cultius utilitzant paletes de colors coherents per fer que els diferents tipus de cultius siguin clarament identificables al mapa.
+
+**3. Utilització del Complement QGIS2Web**
+- Configuració del Complement: S'ha utilitzat el complement QGIS2Web per exportar les dades cartogràfiques i els estils del QGIS al format web. Aquest complement permet convertir fàcilment les dades del QGIS en mapes web interactius.
+- Configuració de les Capes i Grups: S'han configurat les capes i grups per fer visibles els popups amb la informació rellevant sobre els cultius agrícoles. Això inclou la superfície en hectàrees i el tipus de cultiu.
+- Estil i Visualització: S'ha ajustat l'estil i la visualització de les capes per millorar la llegibilitat del mapa, incloent-hi l'ús de llegenda de les capes seleccionades i les columnes de la taula d'atributs que s'ha volgut destacar, en aquest cas els tipus de cultius. 
+
+**4. Opcions d'Exportació i Enllaçament**
+- Exportació del Mapa Web: S'ha exportat el mapa web amb les configuracions i personalitzacions desitjades, incloent-hi opcions per visualitzar-ho a pantalla completa.
+- Enllaçament amb la Pàgina Web: S'ha enllaçat la carpeta resultant de l'exportació amb el codi de la part del mapa a la pàgina web mitjançant una ruta absoluta. Això permet integrar el mapa directament a la pàgina web i assegurar que sigui accessible per als usuaris.
+
+---
+
+## Dificultats/millores
+
+Entesos, aquí tens una versió en tercera persona:
+
+### Dificultats:
+
+1. **Càrrega Inicial del Mapa**:
+   - En el procés de desenvolupament, s'han trobat dificultats en la càrrega inicial del mapa a la pàgina web. Va haver de navegar a través de la carpeta del mapa des de la URL proporcionada pel GitHub i copiar la URL per enganxar-la en un iframe que carregués el mapa. Això pot haver creat una mica de confusió i potser hauria estat més pràctic si el mapa s'hagués integrat directament sense necessitat d'entrar a través de la carpeta del mapa.
+   - Per millorar la facilitat d'ús i l'experiència de l'usuari, es podria investigar com integrar el mapa de manera directa a la pàgina web sense necessitat d'entrar a través de la carpeta del mapa. Això podria simplificar el procés per als usuaris i evitar confusions en la càrrega inicial del mapa.
+
+
+2. **Descàrrega del Vídeo**:
+   - Durant el procés de descàrrega, s'han enfrontat dificultats amb un vídeo de mida considerable des de YouTube. Tot i intentar reduir la mida del vídeo amb una eina en línia, la mida mínima era de 50 MB, el que excedia les necessitats. Com a alternativa, es va enllaçar el vídeo mitjançant la copia de la URL del vídeo a un iframe. Tot i que això resol el problema de la mida del fitxer, es podrien explorar altres opcions de compressió de vídeo o serveis d'allotjament que permetin una descàrrega més eficient del vídeo en el futur.
+  - Per a futurs vídeos o contingut multimèdia, es podria investigar altres opcions de compressió de vídeo o serveis d'allotjament que permetin una descàrrega més eficient dels fitxers, mantenint al mateix temps una alta qualitat de reproducció.
+    
+3. **Responsivitat de la Taula del Projecte**:
+   - En l'aplicació del mètode responsive a la secció del projecte, s'ha observat que una taula es deformava en dispositius mòbils. Per solucionar-ho, s'ha optat per crear una imatge de la taula, que és una solució efectiva per assegurar que el contingut es mostri de manera coherent en dispositius de diferents mides. No obstant això, en el futur, es podria considerar alternatives com la creació d'una taula responsive amb HTML i CSS, que ofereix una millor flexibilitat i control sobre el disseny de la taula en diversos dispositius.
+   - En lloc de convertir la taula en una imatge, es podria considerar la creació d'una taula responsive amb HTML i CSS. Això proporcionaria una millor flexibilitat i control sobre el disseny de la taula en diversos dispositius, assegurant que el contingut es mostri de manera clara i llegible en tots els casos.
+
 ---
 
 ## Instruccions d'Ús
