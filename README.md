@@ -24,7 +24,7 @@ Per a la realització d'aquest projecte, he extret dades de diverses fonts fiabl
     - Capa d'Usos del Sòl del Sistema d'Informació sobre Sòl No Urbanitzable (SISoe): Aquesta capa m'ha permès identificar i analitzar els diferents usos del sòl a Albinyana, crucial per planificar i gestionar la producció agrícola.
     - Capes de Límits Municipals del Centre Nacional d'Informació Geogràfica (CNIG): Aquestes capes m'han proporcionat informació precisa sobre els límits administratius del municipi, essencial per a la delimitació exacta de les àrees d'estudi.
     - Fons de Mapa de Google Maps: He utilitzat Google Maps per obtenir una base cartogràfica visualment clara i accessible, que complementa les altres dades geogràfiques amb informació actualitzada sobre infraestructures i terreny.
---- 
+
 ## Estructura de la Web
 ---
 ## Índex de Continguts
