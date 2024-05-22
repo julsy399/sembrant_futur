@@ -63,11 +63,11 @@ Per a la realització d'aquest projecte, he extret dades de diverses fonts fiabl
 - Mostrar informació detallada sobre cada membre de l'equip d'investigació.
 - Descripcions emergents que proporcionen detalls sobre el rol, experiència i contribució de cada membre al projecte.
 
-### Projectes (projectes.html)
+### Projecte (projectes.html)
 
 **Estructura:**
 - **Capçalera:** Inclou el logotip, el nom del projecte i un menú de navegació.
-- **Títol:** "PROJECTES".
+- **Títol:** "PROJECTE".
 - **Contingut Principal:** Llista i descripció dels projectes de recerca en curs i finalitzats.
 - **Peu de Pàgina:** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
 
