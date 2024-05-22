@@ -1,5 +1,4 @@
-# sembrant_futur
-# README
+# SEMBRANT EL FUTUR
 
 ## Descripció General
 
