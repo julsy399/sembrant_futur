@@ -18,6 +18,11 @@ Per a la realització d'aquest projecte, he extret dades de diverses fonts fiabl
 
 - **Institut d'Estadística de Catalunya (IDESCAT)**: Per a la recerca socioeconòmica i demogràfica, he utilitzat les dades proporcionades per l'IDESCAT. Aquestes dades han estat essencials per comprendre millor el context socioeconòmic d'Albinyana i la seva evolució demogràfica, factors que influeixen directament en la producció agrícola i en les necessitats de la comunitat.
 
+- **Cartografia**: Per a la cartografia, he utilitzat diverses fonts per garantir la precisió i detall dels mapes utilitzats:
+    - Capa d'Usos del Sòl del Sistema d'Informació sobre Sòl No Urbanitzable (SISoe): Aquesta capa m'ha permès identificar i analitzar els diferents usos del sòl a Albinyana, crucial per planificar i gestionar la producció agrícola.
+    - Capes de Límits Municipals del Centre Nacional d'Informació Geogràfica (CNIG): Aquestes capes m'han proporcionat informació precisa sobre els límits administratius del municipi, essencial per a la delimitació exacta de les àrees d'estudi.
+    - Fons de Mapa de Google Maps: He utilitzat Google Maps per obtenir una base cartogràfica visualment clara i accessible, que complementa les altres dades geogràfiques amb informació actualitzada sobre infraestructures i terreny.
+
 ## Índex de Continguts
 1. [Inici (index.html)](#inici-indexhtml)
 2. [Membres (membres.html)](#membres-membreshtml)
