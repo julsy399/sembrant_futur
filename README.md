@@ -25,6 +25,8 @@ Per a la realització d'aquest projecte, he extret dades de diverses fonts fiabl
     - Capes de Límits Municipals del Centre Nacional d'Informació Geogràfica (CNIG): Aquestes capes m'han proporcionat informació precisa sobre els límits administratius del municipi, essencial per a la delimitació exacta de les àrees d'estudi.
     - Fons de Mapa de Google Maps: He utilitzat Google Maps per obtenir una base cartogràfica visualment clara i accessible, que complementa les altres dades geogràfiques amb informació actualitzada sobre infraestructures i terreny.
 --- 
+## Estructura de la Web
+---
 ## Índex de Continguts
 1. [Inici (index.html)](#inici-indexhtml)
 2. [Membres (membres.html)](#membres-membreshtml)
@@ -32,8 +34,7 @@ Per a la realització d'aquest projecte, he extret dades de diverses fonts fiabl
 4. [Mapa (mapa.html)](#mapa-mapahtml)
 5. [Contacte (contacte.html)](#contacte-contactehtml)
 
----
-## Estructura de la Web
+
 ---
 
 ### Inici (index.html)
