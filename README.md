@@ -12,11 +12,11 @@ La meva motivació per aquest projecte neix de la meva profunda connexió amb Al
 
 Per a la realització d'aquest projecte, he extret dades de diverses fonts fiables i rellevants:
 
-Salvador Casellas, President de la Cooperativa d'Albinyana: El senyor Casellas m'ha proporcionat informació detallada sobre els socis de la cooperativa, així com dades específiques sobre les collites de raïm, olives i garrofes. A més, m'ha compartit informació sobre els problemes actuals que afronta el sector agrícola local i les possibles millores que es podrien implementar per optimitzar la producció i la sostenibilitat.
+- **Salvador Casellas, President de la Cooperativa d'Albinyana**: El senyor Casellas m'ha proporcionat informació detallada sobre els socis de la cooperativa, així com dades específiques sobre les collites de raïm, olives i garrofes. A més, m'ha compartit informació sobre els problemes actuals que afronta el sector agrícola local i les possibles millores que es podrien implementar per optimitzar la producció i la sostenibilitat.
 
-Pàgina Web de la Cooperativa d'Albinyana i de l'Ajuntament d'Albinyana: A través dels portals web oficials de la cooperativa i de l'ajuntament, he pogut obtenir informació addicional sobre les activitats, projectes i iniciatives relacionades amb la producció agrícola al nostre poble. Aquestes dades m'han permès tenir una visió més completa de la situació actual i dels esforços que s'estan fent per promoure el sector.
+- **Pàgina Web de la Cooperativa d'Albinyana i de l'Ajuntament d'Albinyana**: A través dels portals web oficials de la cooperativa i de l'ajuntament, he pogut obtenir informació addicional sobre les activitats, projectes i iniciatives relacionades amb la producció agrícola al nostre poble. Aquestes dades m'han permès tenir una visió més completa de la situació actual i dels esforços que s'estan fent per promoure el sector.
 
-Institut d'Estadística de Catalunya (IDESCAT): Per a la recerca socioeconòmica i demogràfica, he utilitzat les dades proporcionades per l'IDESCAT. Aquestes dades han estat essencials per comprendre millor el context socioeconòmic d'Albinyana i la seva evolució demogràfica, factors que influeixen directament en la producció agrícola i en les necessitats de la comunitat.
+- **Institut d'Estadística de Catalunya (IDESCAT)** : Per a la recerca socioeconòmica i demogràfica, he utilitzat les dades proporcionades per l'IDESCAT. Aquestes dades han estat essencials per comprendre millor el context socioeconòmic d'Albinyana i la seva evolució demogràfica, factors que influeixen directament en la producció agrícola i en les necessitats de la comunitat.
 
 ## Índex de Continguts
 1. [Inici (index.html)](#inici-indexhtml)
