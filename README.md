@@ -170,7 +170,7 @@ Entesos, aquí tens una versió en tercera persona:
 
 2. **Descàrrega del Vídeo**:
    - Durant el procés de descàrrega, s'han enfrontat dificultats amb un vídeo de mida considerable des de YouTube. Tot i intentar reduir la mida del vídeo amb una eina en línia, la mida mínima era de 50 MB, el que excedia les necessitats. Com a alternativa, es va enllaçar el vídeo mitjançant la copia de la URL del vídeo a un iframe. Tot i que això resol el problema de la mida del fitxer, es podrien explorar altres opcions de compressió de vídeo o serveis d'allotjament que permetin una descàrrega més eficient del vídeo en el futur.
-  - Per a futurs vídeos o contingut multimèdia, es podria investigar altres opcions de compressió de vídeo o serveis d'allotjament que permetin una descàrrega més eficient dels fitxers, mantenint al mateix temps una alta qualitat de reproducció.
+   - Per a futurs vídeos o contingut multimèdia, es podria investigar altres opcions de compressió de vídeo o serveis d'allotjament que permetin una descàrrega més eficient dels fitxers, mantenint al mateix temps una alta qualitat de reproducció.
     
 3. **Responsivitat de la Taula del Projecte**:
    - En l'aplicació del mètode responsive a la secció del projecte, s'ha observat que una taula es deformava en dispositius mòbils. Per solucionar-ho, s'ha optat per crear una imatge de la taula, que és una solució efectiva per assegurar que el contingut es mostri de manera coherent en dispositius de diferents mides. No obstant això, en el futur, es podria considerar alternatives com la creació d'una taula responsive amb HTML i CSS, que ofereix una millor flexibilitat i control sobre el disseny de la taula en diversos dispositius.
