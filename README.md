@@ -16,11 +16,11 @@ Aquest projecte consta d'una pàgina web dedicada a la investigació i promoció
 ### Inici (index.html)
 
 **Estructura:**
-- **Capçalera (header):** Inclou el logotip, el nom del projecte "Sembrant Futur" i un menú de navegació.
+- **Capçalera:** Inclou el logotip, el nom del projecte "Sembrant Futur" i un menú de navegació.
 - **Contenidor de Slogan:** Imatge amb un eslògan inspirador sobre l'agricultura sostenible.
 - **Contingut Principal:** Descripció del projecte, la seva missió i agraïments a col·laboradors com la Cooperativa d'Albinyana i Studio M.Schulz.
 - **Reconeixements:** Vídeo de vista aèria d'Albinyana.
-- **Peu de Pàgina (footer):** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
+- **Peu de Pàgina:** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
 
 **Funcionalitat:**
 - Aquesta pàgina serveix com a introducció al projecte, destacant la missió i els objectius de l'equip investigador.
@@ -29,11 +29,11 @@ Aquest projecte consta d'una pàgina web dedicada a la investigació i promoció
 ### Membres (membres.html)
 
 **Estructura:**
-- **Capçalera (header):** Inclou el logotip, el nom del projecte i un menú de navegació.
+- **Capçalera:** Inclou el logotip, el nom del projecte i un menú de navegació.
 - **Títol:** "MEMBRES DEL EQUIP".
 - **Contenidor de Membres:** Galeria d'imatges dels membres de l'equip amb descripcions emergents.
 - **Descripció del Membre:** Div ocult que mostra la descripció detallada d'un membre quan es fa clic a la seva imatge.
-- **Peu de Pàgina (footer):** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
+- **Peu de Pàgina:** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
 
 **Funcionalitat:**
 - Mostrar informació detallada sobre cada membre de l'equip d'investigació.
@@ -42,10 +42,10 @@ Aquest projecte consta d'una pàgina web dedicada a la investigació i promoció
 ### Projectes (projectes.html)
 
 **Estructura:**
-- **Capçalera (header):** Inclou el logotip, el nom del projecte i un menú de navegació.
+- **Capçalera:** Inclou el logotip, el nom del projecte i un menú de navegació.
 - **Títol:** "PROJECTES".
 - **Contingut Principal:** Llista i descripció dels projectes de recerca en curs i finalitzats.
-- **Peu de Pàgina (footer):** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
+- **Peu de Pàgina:** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
 
 **Funcionalitat:**
 - Proporcionar una visió general dels diferents projectes d'investigació realitzats per l'equip.
@@ -54,10 +54,10 @@ Aquest projecte consta d'una pàgina web dedicada a la investigació i promoció
 ### Mapa (mapa.html)
 
 **Estructura:**
-- **Capçalera (header):** Inclou el logotip, el nom del projecte i un menú de navegació.
+- **Capçalera:** Inclou el logotip, el nom del projecte i un menú de navegació.
 - **Títol:** "MAPA".
 - **Contingut Principal:** Mapa interactiu que mostra les localitzacions d'interès a Albinyana relacionades amb els projectes de recerca.
-- **Peu de Pàgina (footer):** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
+- **Peu de Pàgina:** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
 
 **Funcionalitat:**
 - Proporcionar una visualització geogràfica dels llocs d'investigació i altres localitzacions rellevants.
@@ -66,10 +66,10 @@ Aquest projecte consta d'una pàgina web dedicada a la investigació i promoció
 ### Contacte (contacte.html)
 
 **Estructura:**
-- **Capçalera (header):** Inclou el logotip, el nom del projecte i un menú de navegació.
+- **Capçalera:** Inclou el logotip, el nom del projecte i un menú de navegació.
 - **Títol:** "CONTACTE".
 - **Contingut Principal:** Formulari de contacte per permetre als usuaris enviar missatges a l'equip d'investigació.
-- **Peu de Pàgina (footer):** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
+- **Peu de Pàgina:** Enllaços a xarxes socials, logotips de col·laboradors i informació de copyright.
 
 **Funcionalitat:**
 - Facilitar la comunicació entre els visitants del lloc web i l'equip d'investigació.
