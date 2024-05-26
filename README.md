@@ -20,7 +20,8 @@ Per a la realització d'aquest projecte, he extret dades de diverses fonts fiabl
 
 - **Institut d'Estadística de Catalunya (IDESCAT)**: Per a la recerca socioeconòmica i demogràfica, he utilitzat les dades proporcionades per l'IDESCAT. Aquestes dades han estat essencials per comprendre millor el context socioeconòmic d'Albinyana i la seva evolució demogràfica, factors que influeixen directament en la producció agrícola i en les necessitats de la comunitat.
 
-- **Cartografia**: Per a la cartografia, he utilitzat diverses fonts per garantir la precisió i detall dels mapes utilitzats:
+- **Cartografia**: S'ha fet servir Qgis en la versió 3.36.2
+- Per a la cartografia, he utilitzat diverses fonts per garantir la precisió i detall dels mapes utilitzats:
     - Capa d'Usos del Sòl del Sistema d'Informació sobre Sòl No Urbanitzable (SISoe): Aquesta capa m'ha permès identificar i analitzar els diferents usos del sòl a Albinyana, crucial per planificar i gestionar la producció agrícola.
     - Capes de Límits Municipals del Centre Nacional d'Informació Geogràfica (CNIG): Aquestes capes m'han proporcionat informació precisa sobre els límits administratius del municipi, essencial per a la delimitació exacta de les àrees d'estudi.
     - Fons de Mapa de Google Maps: He utilitzat Google Maps per obtenir una base cartogràfica visualment clara i accessible, que complementa les altres dades geogràfiques amb informació actualitzada sobre infraestructures i terreny.
@@ -164,8 +165,7 @@ Entesos, aquí tens una versió en tercera persona:
 ### Dificultats:
 
 1. **Càrrega Inicial del Mapa**:
-   - En el procés de desenvolupament, s'han trobat dificultats en la càrrega inicial del mapa a la pàgina web. Va haver de navegar a través de la carpeta del mapa des de la URL proporcionada pel GitHub i copiar la URL per enganxar-la en un iframe que carregués el mapa. Això pot haver creat una mica de confusió i potser hauria estat més pràctic si el mapa s'hagués integrat directament sense necessitat d'entrar a través de la carpeta del mapa.
-   - Per millorar la facilitat d'ús i l'experiència de l'usuari, es podria investigar com integrar el mapa de manera directa a la pàgina web sense necessitat d'entrar a través de la carpeta del mapa. Això podria simplificar el procés per als usuaris i evitar confusions en la càrrega inicial del mapa.
+   - En el procés de desenvolupament, s'han trobat dificultats en la càrrega inicial del mapa a la pàgina web, s'ha observat que no permet carregar capes amb trames complexes, com punts i línies, no s'ha permès el seu ús per diferenciar millor els cultius i per tant s'ha hagut d'optar per tonalitats semblants que en algun cas pot portar confusions.
 
 
 2. **Descàrrega del Vídeo**:
