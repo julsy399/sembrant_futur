@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/functions.js"></script>
+    <link rel="icon" type="image/png" href="img/logoPrincipal.jpeg">
+    
+    <title>Sembrant Futur</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img id="logo" src="img/logoPrincipal.jpeg" alt="logoAlbinyana"></a>
+            <h1>MEMBRES DEL EQUIP</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="membres.html" class="selected">Membres</a></li>
+                    <li><a href="projectes.html">Projecte</a></li>
+                    <li><a href="mapa.html">Mapa</a></li>
+                    <li><a href="contacte.html">Contacte</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+      <br>
+            <h2>FES CLIC PER CONEIXE'NS TOTALMENT</h2>
+        <div class="contenedor-miembros">
+                   <div class="miembro">
+                <img src="img/persones/noia2.jpg" alt="Carla" onclick="mostrarDescripcion(this,'Enginyera Agrònoma','Investigadora Principal', 'Em dic Carla Estela-Thompson i sóc enginyera agrònoma. La meva dedicació a la terra i la natura m\'ha portat a liderar els esforços de recerca del nostre grup en l\'àmbit de la producció agrícola a Albinyana. Amb una formació en agronomia i una passió per la millora de les pràctiques agrícoles, estic compromesa a investigar noves tècniques i estratègies per optimitzar el rendiment dels cultius, mantenint al mateix temps la sostenibilitat i la salut dels ecosistemes agrícoles. Treballo en col·laboració amb agricultors locals per implementar solucions pràctiques i duradores que millorin la productivitat i la resiliència dels seus conreus. Estic emocionada de formar part d\'aquest equip multidisciplinari i contribuir al futur de l\'agricultura a Albinyana i més enllà.')">
+                <p class="nombre-miembro">Carla Estela-Thompson</p>
+            </div>
+            <div class="miembro">
+                <img src="img/persones/noia1.jpg" alt="Julia" onclick="mostrarDescripcion(this,'Geògrafa', 'Coordinadora i Iniciadora del Projecte', 'Em dic Júlia Sevil i sóc geògrafa. Amb una passió per l\'anàlisi dels paisatges i la comprensió de les interaccions entre la societat i el medi ambient, he tingut l\'honor de coordinar i iniciar aquest projecte d\'investigació sobre la producció agrícola a Albinyana. La meva tasca consisteix a proporcionar una visió integral dels factors geogràfics, socials i ambientals que influeixen en l\'activitat agrícola a la nostra comunitat. A través de la recopilació i l\'anàlisi de dades geogràfiques, busquem identificar patrons espacials i tendències que ens ajudin a comprendre millor els reptes i oportunitats que afronten els agricultors locals. Estic emocionada de liderar aquest projecte i col·laborar amb el nostre equip multidisciplinari per impulsar la innovació i el creixement sostenible a Albinyana.')">
+                <p class="nombre-miembro">Júlia Sevil</p>
+            </div>
+            <div class="miembro">
+                <img src="img/persones/noi.jpg" alt="Pol" onclick="mostrarDescripcion(this,'Enginyer Informàtic', 'Col·laborador', 'Em dic Pol Arnabat i sóc enginyer informàtic. La meva passió per la tecnologia m\'ha portat a col·laborar amb el nostre grup de recerca en l\'àmbit de la producció agrícola a Albinyana. Mitjançant la meva experiència en desenvolupament de software i sistemes d\'informació, estic compromès a proporcionar solucions innovadores que milloren l\'eficiència i la gestió de les activitats agrícoles. Em dedico a desenvolupar eines tecnològiques que facilitin la recopilació, anàlisi i visualització de dades agrícoles, contribuint a una presa de decisions més informada i sostenible. Em motiva treballar en col·laboració amb els nostres investigadors i agricultors locals per impulsar el progrés de la producció agrícola a Albinyana.')">
+                <p class="nombre-miembro">Pol Arnabat</p>
+            </div>
+        </div>
+        <!--Aixo es perque no es vegi el cuadrat abans de que aparegui el text-->
+        <div id="descripcion-miembro" style="display: none;"></div>
+        
+
+        <footer>
+            <div class="redes-sociales">
+                <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/"><img src="img/x.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="colaboradores">
+                <br>
+                <a href="https://www.urv.cat/es/"><img src="img/logo-urv.png" alt="Universitat"></a>
+                <a href="http://www.albinyana.cat/"><img src="img/baixa.png" alt="Coperativa D'albinyana"></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Sembrant Futur. Tots els drets reservat.</p>
+            </div>
+            <div class="lineas"></div>
+            <div class="volver-arriba">
+                <a href="#"><img src="img/navegar-flecha-hacia-arriba.png" alt="subirArribadelaWEb"></a>
+            </div>
+        </footer>
+
+
+    </body>
+</html>
